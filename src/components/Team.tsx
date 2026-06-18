@@ -6,7 +6,7 @@ import t3 from "@/assets/team/kevi.jpeg";
 
 const team = [
   { img: t1, name: "Clifford Prasad", role: "Founder" },
-  { img: t2, name: "mam", role: "plant stylist" },
+  { img: t2, name: "Sharom Prasad", role: "plant stylist" },
   { img: t3, name: "Kevin Prasad", role: "Founder" },
 ];
 
