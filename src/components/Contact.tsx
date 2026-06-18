@@ -114,8 +114,8 @@ export function Contact() {
                 {
                   icon: Mail,
                   label: "Inquiries",
-                  value: "bskoushik06@gmail.com",
-                  href: "mailto:bskoushik06@gmail.com",
+                  value: "seasonslandscapersinfo@gmail.com",
+                  href: "mailto:seasonslandscapersinfo@gmail.com",
                 },
               ].map((c) => (
                 <div key={c.label} className="flex items-center gap-4">
