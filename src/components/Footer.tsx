@@ -24,7 +24,7 @@ export function Footer() {
 
           {[
             { h: "Studio", l: ["Services", "Portfolio", "About"] },
-            { h: "Contact", l: ["SeasonsLandscapers", "+91 9900053707", "bskoushik06@gmail.com"] },
+            { h: "Contact", l: ["SeasonsLandscapers", "+91 9900053707", "seasonslandscapersinfo@gmail.com"] },
             { h: "Follow", l: ["Instagram"] },
           ].map((col) => (
             <div key={col.h} className="md:col-span-2">
