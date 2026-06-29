@@ -1,4 +1,4 @@
-import logo from "@/assets/seasons-landscapers-logo.png";
+import logo from "@/assets/Gemini_Generated_Image_th76j3th76j3th76-Photoroom.png";
 
 type BrandLogoProps = {
   compact?: boolean;
