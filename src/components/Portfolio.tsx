@@ -27,7 +27,7 @@ const portfolioFolders = {
     "seasonslandscapers_518722449_18021745019708687_1887559929821168270_n.jpg",
   ),
   charkos: getFolderImages("charkos"),
-  grandseran: getFolderImages("grandseran"),
+  grandserene: getFolderImages("grandserene"),
   indpro: getFolderImages("indpro"),
   Pelicanpub: getFolderImages(
     "Pelicanpub",
