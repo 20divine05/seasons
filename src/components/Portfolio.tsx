@@ -27,7 +27,7 @@ const portfolioFolders = {
     "seasonslandscapers_518722449_18021745019708687_1887559929821168270_n.jpg",
   ),
   charkos: getFolderImages("charkos"),
-  grandserene: getFolderImages("grandserene"),
+  grandseran: getFolderImages("grandseran"),
   indpro: getFolderImages("indpro"),
   Pelicanpub: getFolderImages(
     "Pelicanpub",
@@ -53,7 +53,7 @@ const projectDetails = {
   grandserene: {
     desc: "A graceful landscape setting with strong garden rhythm, mature planting character and quiet architectural balance.",
     detail:
-      "The grandseran project is arranged as a sequence of planted moments, balancing formal gestures with natural softness. Texture, scale and proportion guide the experience, allowing the landscape to frame the property without overwhelming it.",
+      "The grandserene project is arranged as a sequence of planted moments, balancing formal gestures with natural softness. Texture, scale and proportion guide the experience, allowing the landscape to frame the property without overwhelming it.",
   },
   indpro: {
     desc: "A practical and elegant outdoor environment designed around durability, greenery and daily usability.",
@@ -89,32 +89,32 @@ const projectDetails = {
 
 const projects = [
   {
-    title: "Atmosphere",
-    gallery: portfolioFolders.Atmosphere,
+    title: "sankalp",
+    gallery: portfolioFolders.sankalp,
+    year: "2025",
+    layout: "xl:col-span-2 xl:row-span-2",
+    tone: "Structured Calm",
+  },
+  {
+    title: "sapa",
+    gallery: portfolioFolders.sapa,
     year: "2024",
-    layout: "xl:col-span-3 xl:row-span-4",
-    tone: "Featured Estate",
+    layout: "xl:col-span-3 xl:row-span-2",
+    tone: "Outdoor Living",
   },
   {
     title: "grandserene",
-    gallery: portfolioFolders.grandserene,
+    gallery: portfolioFolders.grandseran,
     year: "2023",
     layout: "xl:col-span-2 xl:row-span-2",
     tone: "Garden Rhythm",
   },
   {
-    title: "indpro",
-    gallery: portfolioFolders.indpro,
+    title: "Atmosphere",
+    gallery: portfolioFolders.Atmosphere,
     year: "2024",
-    layout: "xl:col-span-1 xl:row-span-2",
-    tone: "Built Landscape",
-  },
-  {
-    title: "charkos",
-    gallery: portfolioFolders.charkos,
-    year: "2024",
-    layout: "xl:col-span-2 xl:row-span-2",
-    tone: "Private Garden",
+    layout: "xl:col-span-3 xl:row-span-4",
+    tone: "Featured Estate",
   },
   {
     title: "Pelicanpub",
@@ -131,18 +131,18 @@ const projects = [
     tone: "Soft Greens",
   },
   {
-    title: "sankalp",
-    gallery: portfolioFolders.sankalp,
-    year: "2025",
-    layout: "xl:col-span-2 xl:row-span-2",
-    tone: "Structured Calm",
+    title: "indpro",
+    gallery: portfolioFolders.indpro,
+    year: "2024",
+    layout: "xl:col-span-1 xl:row-span-2",
+    tone: "Built Landscape",
   },
   {
-    title: "sapa",
-    gallery: portfolioFolders.sapa,
+    title: "charkos",
+    gallery: portfolioFolders.charkos,
     year: "2024",
-    layout: "xl:col-span-3 xl:row-span-2",
-    tone: "Outdoor Living",
+    layout: "xl:col-span-2 xl:row-span-2",
+    tone: "Private Garden",
   },
   {
     title: "sjr",
