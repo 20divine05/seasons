@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { ArrowUpRight, X } from "lucide-react";
 
 const portfolioImageModules = import.meta.glob<string>(
-  "/src/assets/{Atmosphere,charkos,grandseran,indpro,Pelicanpub,roys,sankalp,sapa,sjr}/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}",
+  "/src/assets/{Atmosphere,charkos,grandseran,indpro,indus,Pelicanpub,roys,sankalp,sapa,sjr}/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}",
   { eager: true, import: "default" },
 );
 
@@ -29,6 +29,7 @@ const portfolioFolders = {
   charkos: getFolderImages("charkos"),
   grandseran: getFolderImages("grandseran"),
   indpro: getFolderImages("indpro"),
+  indus: getFolderImages("indus"),
   Pelicanpub: getFolderImages(
     "Pelicanpub",
     "seasonslandscapers_Pelican_3272743448967225009_51255948686.jpg",
@@ -60,6 +61,11 @@ const projectDetails = {
     detail:
       "The indpro project focuses on reliable landscape performance with a refined finish. Planting, circulation and open areas are organized to support frequent use while keeping the space visually lush, ordered and easy to maintain.",
   },
+  "indus international schools": {
+    desc: "A campus landscape shaped for daily student life, shaded movement and a polished institutional arrival.",
+    detail:
+      "The Indus International Schools project brings structured planting, durable outdoor edges and calm circulation together for a high-use academic environment. The landscape is designed to support movement, gathering and visual freshness while staying practical for long-term campus maintenance.",
+  },
   Pelicanpub: {
     desc: "A character-rich landscape with generous planting, warm gathering spaces and a memorable arrival experience.",
     detail:
@@ -88,6 +94,13 @@ const projectDetails = {
 };
 
 const projects = [
+  {
+    title: "indus international schools",
+    gallery: portfolioFolders.indus,
+    year: "2026",
+    layout: "xl:col-span-3 xl:row-span-3",
+    tone: "Campus Landscape",
+  },
   {
     title: "sankalp",
     gallery: portfolioFolders.sankalp,
