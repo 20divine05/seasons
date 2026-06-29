@@ -50,7 +50,7 @@ const projectDetails = {
     detail:
       "The charkos project brings together clean landscape structure, softened planting layers and carefully composed views. Each garden pocket is planned to feel complete on its own while remaining connected to the larger outdoor experience, creating a calm and polished setting for everyday use.",
   },
-  grandseran: {
+  grandserene: {
     desc: "A graceful landscape setting with strong garden rhythm, mature planting character and quiet architectural balance.",
     detail:
       "The grandseran project is arranged as a sequence of planted moments, balancing formal gestures with natural softness. Texture, scale and proportion guide the experience, allowing the landscape to frame the property without overwhelming it.",
@@ -96,8 +96,8 @@ const projects = [
     tone: "Featured Estate",
   },
   {
-    title: "grandseran",
-    gallery: portfolioFolders.grandseran,
+    title: "grandserene",
+    gallery: portfolioFolders.grandserene,
     year: "2023",
     layout: "xl:col-span-2 xl:row-span-2",
     tone: "Garden Rhythm",
