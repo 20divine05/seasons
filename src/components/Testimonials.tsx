@@ -5,17 +5,17 @@ import { Glass } from "./Glass";
 const quotes = [
   {
     quote: "I have been taking their service from the last one year for 3 sites. Clifford and Kevin are very humble and always available for any issues. Satisfied with their maintenance for our garden.",
-    name: "Catherine A.",
+    name: "Maria Kulsum.",
     role: "Estate owner, Connecticut",
   },
   {
     quote: "Five years in, every stone has settled exactly where it was meant to. The vision is even more present than at install.",
-    name: "Marcus & Elin V.",
+    name: "sudha u.s.",
     role: "Private clients",
   },
   {
     quote: "SeasonsLandscapers are the only studio I'd trust on a project of this scale. They are absolute masters of restraint.",
-    name: "Idris Bouchard",
+    name: "Garima Batra",
     role: "Architect, Studio Bouchard",
   },
 ];
