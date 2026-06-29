@@ -4,7 +4,7 @@ import { Glass } from "./Glass";
 
 const quotes = [
   {
-    quote: "They didn't build us a garden — they composed a slow piece of music that plays for twelve months a year.",
+    quote: "I have been taking their service from the last one year for 3 sites. Clifford and Kevin are very humble and always available for any issues. Satisfied with their maintenance for our garden.",
     name: "Catherine A.",
     role: "Estate owner, Connecticut",
   },
