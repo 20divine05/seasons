@@ -30,21 +30,7 @@ export function About() {
           </div>
 
           {/* Floating glass info card */}
-          <Glass
-            variant="strong"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="absolute -bottom-8 right-2 lg:-right-12 p-7 max-w-xs float-slow"          >
-            <div className="text-xs uppercase tracking-[0.25em] text-accent mb-3">Recognition</div>
-            <div className="font-display text-2xl leading-snug mb-3">
-              Best in Show, Chelsea Flower Society — 2023, 2024.
-            </div>
-            <div className="flex items-center gap-2 text-xs text-foreground/55">
-              <span className="w-8 h-px bg-accent/60" /> 14 international awards
-            </div>
-          </Glass>
+         
         </motion.div>
 
         <div className="lg:col-span-6 lg:pl-10">
